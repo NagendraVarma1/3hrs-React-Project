@@ -1,0 +1,14 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 80%
+}
+.button {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+}
