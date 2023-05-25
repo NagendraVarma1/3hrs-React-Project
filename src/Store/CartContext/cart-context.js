@@ -2,7 +2,10 @@ import React from "react";
 
 const CartContext = React.createContext({
     cartItem: [],
-    addCartItem: (item) => {}
+    addLargeCartItem: (item) => {},
+    addMediumCartItem: (item) => {},
+    addSmallCartItem: (item) => {},
+    deleteCartItem: () => {},
 })
 
 export default CartContext;
