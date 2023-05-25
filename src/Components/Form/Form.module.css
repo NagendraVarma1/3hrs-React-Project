@@ -1,0 +1,25 @@
+.fullForm {
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px 0px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.form {
+    margin-bottom: 5px;
+}
+
+.quantity {
+    width: 10%;
+}
+.button {
+    background-color: rgb(92, 230, 92);
+    margin-top: 20px;
+    margin-left: 40%;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}

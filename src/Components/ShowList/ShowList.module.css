@@ -2,13 +2,25 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    border-style: dotted;
+    padding: 10px;
 }
 
 .content {
-    width: 80%
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 .button {
     background-color: aqua;
     width: auto;
     height: auto;
+    font-weight:lighter;
+    margin: 5px;
+}
+.content h3 {
+    border-bottom: 2px solid black;
+    text-align: center;
 }

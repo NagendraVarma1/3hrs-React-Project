@@ -9,10 +9,9 @@ const ShowProvider = (props) => {
             return [...prevState, item]
         })
     }
-
     const showContext = {
         items: shoes,
-        addItem: addItemToShow
+        addItem: addItemToShow,
     }
     console.log(shoes)
     return (
